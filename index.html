@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<title>Custom Selection Box</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+</head>
+<body>
+	<div class="selection-container">
+		<label>Title:</label>
+		<div class="default-dropdown">
+			<a href="#" id="dvr-selector" class="selected" value="selection1"><span class="selected">Please Select</span> <span class="down-icon"></span></a>
+			<ul class="selectors" style="display: none;">
+				<li>
+					<a href="#" selectorid="selection1">selection Looooooooooooooooooong 1</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection2">selection 2</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection3">selection 3</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection4">selection 4</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection5">selection 5</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection6">selection 6</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection7">selection 7</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection8">selection 8</a>
+				</li>
+				<li>
+					<a href="#" selectorid="selection9">selection 9</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<script type="text/javascript">
+	$(function(){
+		global.ui.defaultDropDown();
+	});
+</script>
+</body>
+</html>
